@@ -249,6 +249,10 @@ function resetFiltros(){
         "soloFavoritos"
     ).checked = false;
 
+    document.getElementById(
+    "Atardeceres"
+    ).checked = false;
+
     // Limpiar buscador
 
     document.getElementById(
@@ -306,6 +310,11 @@ function actualizarFiltros(){
         "soloFavoritos"
     ).checked;
 
+    const Atardeceres =
+    document.getElementById(
+    "Atardeceres"
+    ).checked;
+
     const texto =
     document.getElementById(
         "buscador"
@@ -354,6 +363,16 @@ function actualizarFiltros(){
         if(
             soloFavoritos &&
             !info.favorito
+        ){
+            mostrar = false;
+        }
+        // ==================
+        // ATARDECER
+        // ==================
+
+        if(
+            Atardeceres &&
+            !info.atardecer
         ){
             mostrar = false;
         }
