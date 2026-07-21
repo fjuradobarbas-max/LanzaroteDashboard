@@ -218,9 +218,61 @@ document
     }
 );
 
+document
+.getElementById("btnReset")
+.addEventListener(
+    "click",
+    resetFiltros
+);
+
 // =====================================
 // FILTROS
 // =====================================
+
+function resetFiltros(){
+
+    // Marcar todas las categorías
+
+    document
+    .querySelectorAll(
+        'input[data-tipo]'
+    )
+    .forEach(cb => {
+
+        cb.checked = true;
+
+    });
+
+    // Quitar favoritos
+
+    document.getElementById(
+        "soloFavoritos"
+    ).checked = false;
+
+    // Limpiar buscador
+
+    document.getElementById(
+        "buscador"
+    ).value = "";
+
+    // Restablecer días
+
+    document.getElementById(
+        "filtroDias"
+    ).value = "";
+
+    // Centrar mapa
+
+    map.setView(
+        [29.0469, -13.5899],
+        10
+    );
+
+    // Recargar filtros
+
+    actualizarFiltros();
+
+}
 
 function actualizarFiltros(){
 
@@ -288,8 +340,8 @@ function actualizarFiltros(){
 
         if(
             diasSeleccionados &&
-            info.dias &&
-            info.dias != diasSeleccionados
+            info.dia &&
+            info.dia != diasSeleccionados
         ){
             mostrar = false;
         }
