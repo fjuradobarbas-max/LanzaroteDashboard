@@ -338,13 +338,14 @@ function actualizarFiltros(){
         // DÍAS
         // ==================
 
+
         if(
             diasSeleccionados &&
-            info.dia &&
-            info.dia != diasSeleccionados
+            String(info.dia) !== diasSeleccionados
         ){
             mostrar = false;
         }
+
 
         // ==================
         // FAVORITOS
