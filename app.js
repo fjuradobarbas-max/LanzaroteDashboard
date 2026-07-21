@@ -250,7 +250,7 @@ function resetFiltros(){
     ).checked = false;
 
     document.getElementById(
-    "Atardeceres"
+    "soloAtardecer"
     ).checked = false;
 
     // Limpiar buscador
@@ -310,9 +310,9 @@ function actualizarFiltros(){
         "soloFavoritos"
     ).checked;
 
-    const Atardeceres =
+    const soloAtardecer =
     document.getElementById(
-    "Atardeceres"
+    "soloAtardecer"
     ).checked;
 
     const texto =
@@ -371,7 +371,7 @@ function actualizarFiltros(){
         // ==================
 
         if(
-            Atardeceres &&
+            soloAtardecer &&
             !info.atardecer
         ){
             mostrar = false;
