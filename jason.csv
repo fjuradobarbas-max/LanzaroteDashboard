@@ -1,0 +1,56 @@
+nombre;tipo;favorito;lat;lng;precio;web;dia;recomendacion;atardecer;descripcion
+Barceló Teguise Beach;hotel;false;28.9985;-13.4896;1;na;1;Fer;false;Adults Only
+La Raspa;restaurante;false;28.962261;-13.546741;1;na;1;Fer;false;
+Strava;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;
+El Puertito;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;Genial para tomarse una copa en la terraza de arriba antes de salir de fiesta por la marina
+Carbón;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;Carne
+Barullo;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;
+Santa Leña;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;Carne
+Niño Salvaje;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;
+Alarz;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;
+Chacho burguer;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;hamburguesería
+Barbacana;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;Carne uruguayo
+Katus;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;
+Lilium;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;
+La ripia;restaurante;false;28.959185;-13.547662;1;na;1;Fer;false;
+Casa Tere;restaurante;false;28.951716;-13.587575;1;na;1;Fer;false;
+Patagonia;restaurante;false;28.951716;-13.587575;1;na;1;Fer;false;Carne
+Emmax;restaurante;false;28.951716;-13.587575;1;na;1;Fer;false;Italiano
+Amura;restaurante;false;28.916763;-13.705072;1;na;1;Fer;false;Arroz
+La porteña;restaurante;false;28.916763;-13.705072;1;na;1;Fer;false;Carne
+Buda;restaurante;false;28.916763;-13.705072;1;na;1;Fer;false;para tomar una copa en el puerto
+Salmarina;restaurante;false;28.90684;-13.732607;1;na;1;Fer;false;
+Casa Tino;restaurante;false;28.90684;-13.732607;1;na;1;Fer;false;
+Brisa Marina;restaurante;false;28.861;-13.857;1;na;1;Fer;false;
+Kamezí;restaurante;false;28.861;-13.857;1;na;1;Fer;false;Restaurante para un plan especial
+Costa Azul;restaurante;false;28.980621;-13.83066;1;na;1;Fer;false;comer Cherne o pescado a la brasa
+El Cangrejo Rojo;restaurante;false;28.920706;-13.671291;1;na;1;Fer;false;
+Ikarus;restaurante;false;29.06;-13.563;1;na;1;Fer;false;Tu restaurante favorito
+Chiringuito Tropical;restaurante;true;28.861386;-13.860099;1;na;4;Fer;false;Comer Arroz con playa con vistas a fuerteventura (reservar)
+La Geria;plan;true;29.019;-13.69;1;na;2;Fer y Rocio;false;Zona de bodegas (Bodega de Uga 1 y Bodega de Santiago 11)
+Piscinas Naturales;plan;false;29.145157;-13.446248;1;na;1;Fer;false;Tomar unas tropicales con una tapita en el murito del bar piscinas viendo las piscinas naturales
+Charco se San gines;plan;true;28.961993;-13.549121;1;na;4;Fer;true;Para tomar unas cervezas cenar en la raspa tomar copa en restaurante puertito o la miñoca. Paseo Maritimo donde se encuentra el castillo
+Timanfaya;plan;false;29.005;-13.756;1;na;1;Fer;false;Parque Nacional de Timanfaya
+El Golfo;plan;false;28.960823;-13.829832;1;na;1;Fer;true;Atardecer
+Los Hervideros;plan;true;28.954141;-13.832062;1;na;4;Fer;true;
+Jameos del Agua;plan;true;29.158;-13.432;1;na;5;Fer y Rocio;true;
+La Cueva de los verdes;plan;true;29.16076;-13.439671;1;na;5;Fer y Rocio;true;
+El mirador del rio;plan;false;29.21375;-13.481047;1;na;1;Fer y Rocio;true;
+El jardin del cactus;plan;false;29.21375;-13.481047;1;na;1;Fer;true;
+Las Grietas;plan;false;28.974215;-13.634042;1;na;1;Fer;true;
+Cueva de Lago Mar;restaurante;false;29.04494;-13.555177;1;na;1;Fer;false;Tomar un coctel en un acueva
+Teguise(villa);plan;true;29.057611;-13.559244;1;na;2;Fer;false;Domingo Mercadillo
+El Bosquecillo;plan;false;29.126094;-13.522021;1;na;1;Fer;false;Vistas a Famara espectaculares
+Timanfaya;plan;true;29.015478;-13.782784;1;na;3;Fer;false;
+Playa Jabalillo;playa;false;28.992679;-13.489975;1;na;1;Fer;false;
+Papagayo;playa;true;28.842;-13.787;1;na;3;Fer y Rocio;false;La playa más famosa(llevar de comer porque solo hay un chiringuito y es caro)
+Playa mujeres;playa;false;28.852827;-13.792615;1;na;1;Fer;false;Nudista  no tan masificada
+Flamingo;playa;false;28.857464;-13.841246;1;na;1;Fer;false;
+Calitas;playa;false;28.919668;-13.649805;1;na;1;Fer;false;Las calitas de enfrente de Lanys
+Playa Fariones;playa;false;28.91974;-13.664763;1;na;1;Fer;false;una de mis favoritas
+Playa Chica;playa;false;28.91974;-13.664763;1;na;1;Fer;false;
+Famara;playa;true;29.115383;-13.557022;1;na;6;Fer;false;Mejor atardecer - Restaurante Risco
+Playa Risco;playa;false;29.208699;-13.496886;1;na;1;Fer;false;
+Caleton Blanco;playa;true;29.216036;-13.438289;1;na;5;Fer;false;
+Jabillo;playa;false;28.993224;-13.489621;1;na;1;Amiga Fer;false;Piscinas Naturales Gigantes - Comer o Cenar en El rincon
+Restaurante Risco;restaurante;true;29.114487;-13.548163;1;na;6;Fer;false;
