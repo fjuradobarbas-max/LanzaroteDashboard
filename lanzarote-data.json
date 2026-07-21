@@ -1,4 +1,6 @@
-[
+{
+  "lugares": 
+  [
   {
     "nombre": "Barceló Teguise Beach",
     "tipo": "hotel",
@@ -715,3 +717,4 @@
     "descripcion": ""
   }
 ]
+}
