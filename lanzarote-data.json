@@ -3,7 +3,7 @@
     {
       "nombre": "Barceló Teguise Beach",
       "tipo": "hotel",
-      "favorito": false,
+      "favorito": true,
       "lat": 28.9985,
       "lng": -13.4896,
       "precio": 1,
@@ -21,7 +21,7 @@
       "lng": -13.546741,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -34,7 +34,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -47,7 +47,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Genial para tomarse una copa en la terraza de arriba antes de salir de fiesta por la marina"
@@ -60,7 +60,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Carne"
@@ -73,7 +73,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -86,7 +86,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Carne"
@@ -99,7 +99,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -112,7 +112,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -125,7 +125,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "hamburguesería"
@@ -138,7 +138,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Carne uruguayo"
@@ -151,7 +151,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -164,7 +164,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -177,7 +177,7 @@
       "lng": -13.547662,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -190,7 +190,7 @@
       "lng": -13.587575,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -203,7 +203,7 @@
       "lng": -13.587575,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Carne"
@@ -216,7 +216,7 @@
       "lng": -13.587575,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Italiano"
@@ -229,7 +229,7 @@
       "lng": -13.705072,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Arroz"
@@ -242,7 +242,7 @@
       "lng": -13.705072,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Carne"
@@ -255,7 +255,7 @@
       "lng": -13.705072,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "para tomar una copa en el puerto"
@@ -268,7 +268,7 @@
       "lng": -13.732607,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -281,7 +281,7 @@
       "lng": -13.732607,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -294,7 +294,7 @@
       "lng": -13.857,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -307,7 +307,7 @@
       "lng": -13.857,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Restaurante para un plan especial"
@@ -320,7 +320,7 @@
       "lng": -13.83066,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "comer Cherne o pescado a la brasa"
@@ -333,7 +333,7 @@
       "lng": -13.671291,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -346,7 +346,7 @@
       "lng": -13.563,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Tu restaurante favorito"
@@ -385,7 +385,7 @@
       "lng": -13.446248,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Tomar unas tropicales con una tapita en el murito del bar piscinas viendo las piscinas naturales"
@@ -411,7 +411,7 @@
       "lng": -13.756,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Parque Nacional de Timanfaya"
@@ -424,7 +424,7 @@
       "lng": -13.829832,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": true,
       "descripcion": "Atardecer"
@@ -476,7 +476,7 @@
       "lng": -13.481047,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer y Rocio",
       "atardecer": true,
       "descripcion": ""
@@ -489,7 +489,7 @@
       "lng": -13.481047,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": true,
       "descripcion": ""
@@ -502,7 +502,7 @@
       "lng": -13.634042,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": true,
       "descripcion": ""
@@ -515,7 +515,7 @@
       "lng": -13.555177,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Tomar un coctel en un acueva"
@@ -541,7 +541,7 @@
       "lng": -13.522021,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Vistas a Famara espectaculares"
@@ -567,7 +567,7 @@
       "lng": -13.489975,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -593,7 +593,7 @@
       "lng": -13.792615,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Nudista  no tan masificada"
@@ -606,7 +606,7 @@
       "lng": -13.841246,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -619,7 +619,7 @@
       "lng": -13.649805,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "Las calitas de enfrente de Lanys"
@@ -632,7 +632,7 @@
       "lng": -13.664763,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": "una de mis favoritas"
@@ -645,7 +645,7 @@
       "lng": -13.664763,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -671,7 +671,7 @@
       "lng": -13.496886,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Fer",
       "atardecer": false,
       "descripcion": ""
@@ -697,7 +697,7 @@
       "lng": -13.489621,
       "precio": 1,
       "web": "na",
-      "dia": 1,
+      "dia": 0,
       "recomendacion": "Amiga Fer",
       "atardecer": false,
       "descripcion": "Piscinas Naturales Gigantes - Comer o Cenar en El rincon"
