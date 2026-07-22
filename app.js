@@ -87,6 +87,15 @@ fetch("lanzarote-data.json")
             </div>
         `;
 
+        
+        if(item.foto){
+
+            popup += `
+                ${item.foto}
+            `;
+        }
+
+
         if(item.precio){
 
             popup += `
