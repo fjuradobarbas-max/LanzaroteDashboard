@@ -29,41 +29,41 @@ const markers = [];
 // =====================================
 
 fetch("lanzarote-data.json")
-.then(r => r.json())
-.then(data => {
+    .then(r => r.json())
+    .then(data => {
 
-    data.lugares.forEach(item => {
+        data.lugares.forEach(item => {
 
-        let color;
-        let faIcon;
+            let color;
+            let faIcon;
 
-        switch(item.tipo){
+            switch (item.tipo) {
 
-            case "hotel":
-                color = "#2563eb";
-                faIcon = "fa-hotel";
-                break;
+                case "hotel":
+                    color = "#2563eb";
+                    faIcon = "fa-hotel";
+                    break;
 
-            case "restaurante":
-                color = "#dc2626";
-                faIcon = "fa-utensils";
-                break;
+                case "restaurante":
+                    color = "#dc2626";
+                    faIcon = "fa-utensils";
+                    break;
 
-            case "playa":
-                color = "#0ea5e9";
-                faIcon = "fa-umbrella-beach";
-                break;
+                case "playa":
+                    color = "#0ea5e9";
+                    faIcon = "fa-umbrella-beach";
+                    break;
 
-            default:
-                color = "#16a34a";
-                faIcon = "fa-camera";
-        }
+                default:
+                    color = "#16a34a";
+                    faIcon = "fa-camera";
+            }
 
-        const icon = L.divIcon({
+            const icon = L.divIcon({
 
-            className: "",
+                className: "",
 
-            html: `
+                html: `
                 <i
                     class="fa-solid ${faIcon}"
                     style="
@@ -73,40 +73,48 @@ fetch("lanzarote-data.json")
                     ">
                 </i>
             `
-        });
+            });
 
-        // ====================================
-        // POPUP
-        // =====================================
+            // ====================================
+            // POPUP
+            // =====================================
 
-        let popup = `
-        <div style="
-            width:320px;
-            max-width:320px;
-        ">
-        `;
 
-        if(item.foto){
 
-            popup += `
-                <img
-                    src="${item.foto}"
-                    alt="${item.nombre}"
+            let popup = `
+                <div style="
+                    width:320px;
+                    max-width:320px;
+                ">
+                `;
+
+            if (item.foto) {
+
+                popup += `
+                    ${item.foto}}"
                     style="
                         width:100%;
                         height:180px;
                         object-fit:cover;
-                        border-radius:8px
-            `;
-        }
-          
-        if(item.precio){
+                        border-radius:8px;
+                        margin-bottom:10px;
+                    "
+                 >
+             `;
+            }
 
             popup += `
+                <div class="popup-title">
+                    ${item.nombre}
+                </div>
+            `;
+
+            if (item.precio) {
+
+                popup += `
                 <p>
                     <strong>💰 Precio:</strong>
-                    ${
-                        typeof item.precio === "number"
+                    ${typeof item.precio === "number"
                         ? "€".repeat(item.precio)
                         : item.precio
                     }
@@ -114,147 +122,147 @@ fetch("lanzarote-data.json")
 
                 <hr>
             `;
-        }
+            }
 
-        if(item.descripcion){
+            if (item.descripcion) {
 
-            popup += `
+                popup += `
                 <p>
                     <strong>📝 Descripción:</strong><br>
                     ${item.descripcion}
                 </p>
             `;
-        }
+            }
 
-        if(item.favorito){
+            if (item.favorito) {
 
-            popup += `
+                popup += `
                 <p class="favorito">
                     ⭐ Recomendado por Fernando
                 </p>
             `;
-        }
+            }
 
-        if(item.web){
+            if (item.web) {
 
-            popup += `
+                popup += `
                 <p>
                     ${item.web}
                         🌐 Página Web
                     </a>
                 </p>
             `;
-        }
+            }
 
-        if(item.maps){
+            if (item.maps) {
 
-            popup += `
+                popup += `
                 <p>
                     ${item.maps}
                         📍 Google Maps
                     </a>
                 </p>
             `;
-        }
+            }
 
-        popup += `
+            popup += `
         </div>
         `;
 
-        const marker = L.marker(
-            [item.lat, item.lng],
-            {
-                icon: icon
-            }
-        );
+            const marker = L.marker(
+                [item.lat, item.lng],
+                {
+                    icon: icon
+                }
+            );
 
-        marker.info = item;
+            marker.info = item;
 
-        marker.bindPopup(popup);
+            marker.bindPopup(popup);
 
-        marker.on("mouseover", function(){
+            marker.on("mouseover", function () {
 
-            this.openPopup();
+                this.openPopup();
+
+            });
+
+            markers.push(marker);
 
         });
 
-        markers.push(marker);
+        actualizarFiltros();
 
     });
-
-    actualizarFiltros();
-
-});
 
 // =====================================
 // EVENTOS
 // =====================================
 
 document
-.querySelectorAll(
-    '#sidebar input[type="checkbox"]'
-)
-.forEach(cb => {
+    .querySelectorAll(
+        '#sidebar input[type="checkbox"]'
+    )
+    .forEach(cb => {
 
-    cb.addEventListener(
+        cb.addEventListener(
+            "change",
+            actualizarFiltros
+        );
+
+    });
+
+document
+    .getElementById("buscador")
+    .addEventListener(
+        "input",
+        actualizarFiltros
+    );
+
+document
+    .getElementById("filtroDias")
+    .addEventListener(
         "change",
         actualizarFiltros
     );
 
-});
+document
+    .getElementById("btnCentro")
+    .addEventListener(
+        "click",
+        () => {
+
+            map.setView(
+                [29.0469, -13.5899],
+                10
+            );
+
+        }
+    );
 
 document
-.getElementById("buscador")
-.addEventListener(
-    "input",
-    actualizarFiltros
-);
-
-document
-.getElementById("filtroDias")
-.addEventListener(
-    "change",
-    actualizarFiltros
-);
-
-document
-.getElementById("btnCentro")
-.addEventListener(
-    "click",
-    () => {
-
-        map.setView(
-            [29.0469, -13.5899],
-            10
-        );
-
-    }
-);
-
-document
-.getElementById("btnReset")
-.addEventListener(
-    "click",
-    resetFiltros
-);
+    .getElementById("btnReset")
+    .addEventListener(
+        "click",
+        resetFiltros
+    );
 
 // =====================================
 // FILTROS
 // =====================================
 
-function resetFiltros(){
+function resetFiltros() {
 
     // Marcar todas las categorías
 
     document
-    .querySelectorAll(
-        'input[data-tipo]'
-    )
-    .forEach(cb => {
+        .querySelectorAll(
+            'input[data-tipo]'
+        )
+        .forEach(cb => {
 
-        cb.checked = true;
+            cb.checked = true;
 
-    });
+        });
 
     // Quitar favoritos
 
@@ -263,7 +271,7 @@ function resetFiltros(){
     ).checked = false;
 
     document.getElementById(
-    "soloAtardecer"
+        "soloAtardecer"
     ).checked = false;
 
     // Limpiar buscador
@@ -291,50 +299,50 @@ function resetFiltros(){
 
 }
 
-function actualizarFiltros(){
+function actualizarFiltros() {
 
     cluster.clearLayers();
 
     const categorias = [];
 
     document
-    .querySelectorAll(
-        'input[data-tipo]'
-    )
-    .forEach(cb => {
+        .querySelectorAll(
+            'input[data-tipo]'
+        )
+        .forEach(cb => {
 
-        if(cb.checked){
+            if (cb.checked) {
 
-            categorias.push(
-                cb.dataset.tipo
-            );
+                categorias.push(
+                    cb.dataset.tipo
+                );
 
-        }
+            }
 
-    });
+        });
 
     const diasSeleccionados =
-    document.getElementById(
-        "filtroDias"
-    ).value;
+        document.getElementById(
+            "filtroDias"
+        ).value;
 
     const soloFavoritos =
-    document.getElementById(
-        "soloFavoritos"
-    ).checked;
+        document.getElementById(
+            "soloFavoritos"
+        ).checked;
 
     const soloAtardecer =
-    document.getElementById(
-    "soloAtardecer"
-    ).checked;
+        document.getElementById(
+            "soloAtardecer"
+        ).checked;
 
     const texto =
-    document.getElementById(
-        "buscador"
-    )
-    .value
-    .toLowerCase()
-    .trim();
+        document.getElementById(
+            "buscador"
+        )
+            .value
+            .toLowerCase()
+            .trim();
 
     let contador = 0;
 
@@ -348,11 +356,11 @@ function actualizarFiltros(){
         // CATEGORÍA
         // ==================
 
-        if(
+        if (
             !categorias.includes(
                 info.tipo
             )
-        ){
+        ) {
             mostrar = false;
         }
 
@@ -361,10 +369,10 @@ function actualizarFiltros(){
         // ==================
 
 
-        if(
+        if (
             diasSeleccionados &&
             String(info.dia) !== diasSeleccionados
-        ){
+        ) {
             mostrar = false;
         }
 
@@ -373,20 +381,20 @@ function actualizarFiltros(){
         // FAVORITOS
         // ==================
 
-        if(
+        if (
             soloFavoritos &&
             !info.favorito
-        ){
+        ) {
             mostrar = false;
         }
         // ==================
         // ATARDECER
         // ==================
 
-        if(
+        if (
             soloAtardecer &&
             !info.atardecer
-        ){
+        ) {
             mostrar = false;
         }
 
@@ -394,12 +402,12 @@ function actualizarFiltros(){
         // BUSCADOR
         // ==================
 
-        if(
+        if (
             texto &&
             !info.nombre
                 .toLowerCase()
                 .includes(texto)
-        ){
+        ) {
             mostrar = false;
         }
 
@@ -407,7 +415,7 @@ function actualizarFiltros(){
         // MOSTRAR
         // ==================
 
-        if(mostrar){
+        if (mostrar) {
 
             cluster.addLayer(
                 marker
@@ -420,8 +428,8 @@ function actualizarFiltros(){
     });
 
     document
-    .getElementById("contador")
-    .innerHTML =
-    `📍 ${contador} lugares`;
+        .getElementById("contador")
+        .innerHTML =
+        `📍 ${contador} lugares`;
 
 }
