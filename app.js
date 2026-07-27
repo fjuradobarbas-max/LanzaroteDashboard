@@ -103,18 +103,22 @@ fetch("lanzarote-data.json")
             }
 
 
-                popup += `
-                    <div
-                        class="popup-title"
-                        style="
-                            background:red;
-                            color:white;
-                            padding:5px;
-                        "
-                    >
-                        ${item.nombre}
-                    </div>
-                `;
+
+popup += `
+    <div
+        class="popup-title"
+        style="
+            font-size:22px;
+            font-weight:bold;
+            color:#111827;
+            margin-top:10px;
+            margin-bottom:10px;
+        "
+    >
+        ${item.nombre}
+    </div>
+`;
+
 
 
             if (item.precio) {
