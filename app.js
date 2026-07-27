@@ -92,6 +92,7 @@ fetch("lanzarote-data.json")
                 ${item.nombre}
             </div>
         `;
+        }
 
         if(item.precio){
 
