@@ -80,19 +80,24 @@ fetch("lanzarote-data.json")
         // =====================================
 
         let popup = `
-        <div style="min-width:260px">
+        <div style="
+            width:320px;
+            max-width:320px;
+        ">
         `;
             
         if(item.foto){
-        
-            popup += `
-                <img
-                    src="${item.foto}"
-                    altopup-title">
+
+        popup += `
+            ${item.foto}
+        `;
+        }
+
+        popup += `
+            <div class="popup-title">
                 ${item.nombre}
             </div>
         `;
-        }
 
         if(item.precio){
 
