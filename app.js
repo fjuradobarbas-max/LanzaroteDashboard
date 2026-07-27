@@ -88,26 +88,34 @@ fetch("lanzarote-data.json")
                 ">
                 `;
 
-            if (item.foto) {
+            if(item.foto){
 
                 popup += `
-                    ${item.foto}}"
-                    style="
-                        width:100%;
-                        height:180px;
-                        object-fit:cover;
-                        border-radius:8px;
-                        margin-bottom:10px;
-                    "
-                 >
-             `;
+                    <img
+                        src="${item.foto}"
+                        alt="${item.nombre}"
+                        style="
+                            width:100%;
+                            height:180px;
+                            object-fit:cover;
+                            border-radius:8px
+                `;
             }
 
-            popup += `
-                <div class="popup-title">
-                    ${item.nombre}
-                </div>
-            `;
+
+                popup += `
+                    <div
+                        class="popup-title"
+                        style="
+                            background:red;
+                            color:white;
+                            padding:5px;
+                        "
+                    >
+                        ${item.nombre}
+                    </div>
+                `;
+
 
             if (item.precio) {
 
