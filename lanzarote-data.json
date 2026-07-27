@@ -11,7 +11,8 @@
 		"dia": 1,
 		"recomendacion": "Fer",
 		"atardecer": false,
-		"descripcion": "Dia 1(sabado): Comer en el hotel, pasar la tarde por el hotel-playa de la zona y cenar por algun bar de la zona"
+		"descripcion": "Dia 1(sabado): Comer en el hotel, pasar la tarde por el hotel-playa de la zona y cenar por algun bar de la zona",
+    "foto":"img/barcelo.jpg"
 	},
 	{
 		"nombre": "La Raspa",
