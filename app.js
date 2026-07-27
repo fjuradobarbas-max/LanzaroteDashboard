@@ -85,20 +85,21 @@ fetch("lanzarote-data.json")
             max-width:320px;
         ">
         `;
-            
+
         if(item.foto){
 
-        popup += `
-            ${item.foto}
-        `;
+            popup += `
+                <img
+                    src="${item.foto}"
+                    alt="${item.nombre}"
+                    style="
+                        width:100%;
+                        height:180px;
+                        object-fit:cover;
+                        border-radius:8px
+            `;
         }
-
-        popup += `
-            <div class="popup-title">
-                ${item.nombre}
-            </div>
-        `;
-
+          
         if(item.precio){
 
             popup += `
