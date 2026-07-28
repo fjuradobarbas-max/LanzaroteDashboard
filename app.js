@@ -258,6 +258,27 @@ document
         resetFiltros
     );
 
+    document
+    .querySelectorAll(".btn-dia")
+    .forEach(btn => {
+
+        btn.addEventListener("click", () => {
+
+            document
+            .querySelectorAll(".btn-dia")
+            .forEach(b => b.classList.remove("active"));
+
+            btn.classList.add("active");
+
+            diaSeleccionado =
+            btn.dataset.dia;
+
+            actualizarFiltros();
+
+        });
+
+    });
+
 // =====================================
 // FILTROS
 // =====================================
@@ -280,11 +301,29 @@ function resetFiltros() {
 
     document.getElementById(
         "soloFavoritos"
-    ).checked = false;
+    ).checked = true;
 
     document.getElementById(
         "soloAtardecer"
-    ).checked = false;
+    ).checked = true;
+
+    // Quitar días
+
+    diaSeleccionado = "";
+
+    document
+    .querySelectorAll(".btn-dia")
+    .forEach(btn => {
+
+        btn.classList.remove("active");
+
+    });
+
+    document
+    .querySelector(
+        '.btn-dia[data-dia=""]'
+    )
+    .classList.add("active");
 
     // Limpiar buscador
 
@@ -334,9 +373,7 @@ function actualizarFiltros() {
         });
 
     const diasSeleccionados =
-        document.getElementById(
-            "filtroDias"
-        ).value;
+        diaSeleccionado;
 
     const soloFavoritos =
         document.getElementById(
@@ -357,6 +394,8 @@ function actualizarFiltros() {
             .trim();
 
     let contador = 0;
+
+    let diaSeleccionado = "";
 
     markers.forEach(marker => {
 
