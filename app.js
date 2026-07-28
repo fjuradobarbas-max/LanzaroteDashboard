@@ -97,7 +97,7 @@ const descripcionDias = {
             <li>Playa fariones y calitas</li>
             <li>Playa Chica</li>
             <li>Playa Grande</li>
-            <li>Comer Cangrejo Rojo 14:25h</li>
+            <li>Comer Cangrejo Rojo 14:15h</li>
             <li>Ducha hotel</li>
             <li>Carretera Timanfaya LZ-67</li>
             <li>Los Hervideros</li>
