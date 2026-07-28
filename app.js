@@ -93,8 +93,13 @@ const descripcionDias = {
         <ul>
             <li>Desayuno hotel</li>
             <li>Playa Papagayo. Llevar comida.</li>
+             <li>Playa Flamingo</li>
+             <li>Playa Mujeres</li>
+             <li>Playa del Pozo</li>
+             <li>Playa de la Cera</li>
             <li>Atardecer en el golfo junto al lago verde</li>
-            <li>cena en Costa Azul o Casa Torano (***reservar)</li>
+            <li>Playa del paso</li>
+            <li>Cena en Costa Azul o Casa Torano (***reservar)</li>
         </ul>
     `,
 

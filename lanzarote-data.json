@@ -334,11 +334,11 @@
       "precio": 1,
       "web": "-",
       "dia": 4,
-      "foto": "-",
+      "foto": "img/playa_risco.jpg",
       "telef": "",
       "recomendacion": "Fer y Rocio",
       "atardecer": true,
-      "descripcion": ""
+      "descripcion": "Hay que bajar y subiru acantilado y se hace duro. Es una pplaya larga y sin nadie. Enfrente se ve La Graciosa"
     },
     {
       "nombre": "Jameos del Agua",
@@ -476,6 +476,25 @@
       "atardecer": true,
       "descripcion": ""
     },
+
+        {
+      "nombre": "Playa del Paso",
+      "tipo": "playa",
+      "favorito": true,
+      "Ciudad": "El Golfo (Yaiza)",
+      "ciudad2": "Yaiza",
+      "lat": 28.996545, 
+      "lng": -13.829427,
+      "precio": 1,
+      "web": "-",
+      "dia": 6,
+      "foto": "img/playa_del_paso.jpg",
+      "telef": "",
+      "recomendacion": "Eva",
+      "atardecer": true,
+      "descripcion": "Es una playa de arena negra para recorrer un sendero por acantilado"
+    },
+
     {
       "nombre": "Las Grietas",
       "tipo": "plan",
@@ -712,7 +731,7 @@
       "telef": "",
       "recomendacion": "Fer",
       "atardecer": false,
-      "descripcion": "Mejor atardecer - Restaurante Risco"
+      "descripcion": "Mejor atardecer - Restaurante Risco - Mucho aire"
     },
     {
       "nombre": "La ripia",
@@ -742,7 +761,7 @@
       "precio": 1,
       "web": "-",
       "dia": 6,
-      "foto": "-",
+      "foto": "img/playa_flamingo.jpg",
       "telef": "",
       "recomendacion": "Fer",
       "atardecer": false,
@@ -813,6 +832,40 @@
       "foto": "img/papagayo.jpg",
       "telef": "",
       "recomendacion": "Fer y Rocio",
+      "atardecer": false,
+      "descripcion": ""
+    },
+        {
+      "nombre": "Playa de la Cera",
+      "tipo": "playa",
+      "favorito": true,
+      "Ciudad": "Playa Blanca (Yaiza)",
+      "ciudad2": "Yaiza",
+      "lat": 28.844404,
+      "lng": -13.788670,
+      "precio": 1,
+      "web": "-",
+      "dia": 6,
+      "foto": "img/playa_cera.jpg",
+      "telef": "",
+      "recomendacion": "Eva",
+      "atardecer": false,
+      "descripcion": ""
+    },
+            {
+      "nombre": "Playa del Pozo",
+      "tipo": "playa",
+      "favorito": true,
+      "Ciudad": "Playa Blanca (Yaiza)",
+      "ciudad2": "Yaiza",
+      "lat": 28.846737,
+      "lng": -13.789185,
+      "precio": 1,
+      "web": "-",
+      "dia": 6,
+      "foto": "img/playa_del_pozo.jpg",
+      "telef": "",
+      "recomendacion": "Eva",
       "atardecer": false,
       "descripcion": ""
     },
@@ -929,7 +982,7 @@
       "precio": 1,
       "web": "-",
       "dia": 6,
-      "foto": "-",
+      "foto": "img/playa_mujeres.jpg",
       "telef": "",
       "recomendacion": "Fer",
       "atardecer": false,
