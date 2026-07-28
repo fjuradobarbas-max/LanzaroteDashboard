@@ -129,3 +129,12 @@ body{
     color:#f59e0b;
     font-weight:bold;
 }
+
+#infoDia{
+    padding:15px;
+    margin-bottom:10px;
+    background:#f8fafc;
+    border-radius:10px;
+    border-left:5px solid #2563eb;
+    display:none;
+}

@@ -28,6 +28,87 @@ const markers = [];
 let diaSeleccionado = "";
 
 
+const descripcionDias = {
+
+    "1": `
+        <h3>🗓️ Día 1</h3>
+        <p>
+            - Llegada a Lanzarote.
+            - Comida hotel
+            - Playa Jaramillo
+            - Ducha y cenar en el rincón en Teguise 
+        </p>
+    `,
+
+    "2": `
+        <h3>🗓️ Día 2</h3>
+        <p>
+            - Desayuno hotel 
+            - Mercadillo Teguise
+            - Playa famara y comer en el Risco (***reservar) y más playa por la tarde 
+            - Mirador el bosquecillo
+            - Cenar hotel 
+            - Vuelta por arrecife. Ver charco de San Ginés y paseo marítimo. Copita en restaurante puertito o la miñoca.
+
+        </p>
+    `,
+
+    "3": `
+        <h3>🗓️ Día 3</h3>
+        <p>
+            - Desayuno hotel 
+            - Cueva de los verdes (***reservar)
+            - Jameos del agua (***reservar)
+            - Piscinas naturales de punta mujeres y comer en Bar Piscinas (***reservar)
+            - Playa Caleton blanco
+            - Cenar en hotel
+        </p>
+    `,
+
+    "4": `
+        <h3>🗓️ Día 4</h3>
+        <p>
+            - Desayuno hotel
+            - La graciosa (**reservar). Comer en Casa Enriqueta (**reservar)
+            - Mirador del Río
+            - Cenar en hotel
+        </p>
+    `,
+
+    "5": `
+        <h3>🗓️ Día 5</h3>
+        <p>
+            - Desayuno hotel 
+            - Playa fariones y calitas
+        </p>
+    `,
+
+    "6": `
+        <h3>🗓️ Día 6</h3>
+        <p>
+            - Desayuno hotel 
+            - Playa Papagayo. Llevar comida.
+            - Atardecer en el golfo junto al lago verde y cena en Costa Azul o Casa Torano (***reservar)
+        </p>
+    `,
+
+    "7": `
+        <h3>🗓️ Día 7</h3>
+        <p>
+           - Desayuno hotel
+        </p>
+    `,
+
+    "8": `
+        <h3>🗓️ Día 8</h3>
+        <p>
+            - Desayuno hotel
+            - Piscina hotel
+            - Aeropuerto y comer allí
+        </p>
+    `
+};
+
 // =====================================
 // CARGAR JSON
 // =====================================
@@ -253,6 +334,22 @@ document
             diaSeleccionado =
                 btn.dataset.dia;
 
+            const infoDia =
+                document.getElementById("infoDia");
+
+                if(diaSeleccionado){
+
+                    infoDia.style.display = "block";
+
+                    infoDia.innerHTML =
+                    descripcionDias[diaSeleccionado];
+
+                }else{
+
+                    infoDia.style.display = "none";
+
+                }
+
             actualizarFiltros();
 
         });
@@ -311,7 +408,11 @@ function resetFiltros() {
         "buscador"
     ).value = "";
 
-
+    // Limpiar pop up diario
+    
+        document.getElementById(
+            "infoDia"
+        ).style.display = "none";
 
     // Centrar mapa
 
