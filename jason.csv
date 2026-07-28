@@ -1,55 +1,65 @@
-nombre;tipo;favorito;lat;lng;precio;web;dia;recomendacion;atardecer;descripcion
-Barceló Teguise Beach;hotel;true;28.9985;-13.4896;1;na;1;Fer;false;Dia 1(sabado): Comer en el hotel, pasar la tarde por el hotel-playa de la zona y cenar por algun bar de la zona
-La Raspa;restaurante;false;28.962261;-13.546741;1;na;0;Fer;false;
-Strava;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;
-El Puertito;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;Genial para tomarse una copa en la terraza de arriba antes de salir de fiesta por la marina
-Carbón;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;Carne
-Barullo;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;
-Santa Leña;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;Carne
-Niño Salvaje;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;
-Alarz;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;
-Chacho burguer;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;hamburguesería
-Barbacana;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;Carne uruguayo
-Katus;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;
-Lilium;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;
-La ripia;restaurante;false;28.959185;-13.547662;1;na;0;Fer;false;
-Casa Tere;restaurante;false;28.951716;-13.587575;1;na;0;Fer;false;
-Patagonia;restaurante;false;28.951716;-13.587575;1;na;0;Fer;false;Carne
-Emmax;restaurante;false;28.951716;-13.587575;1;na;0;Fer;false;Italiano
-Amura;restaurante;false;28.916763;-13.705072;1;na;0;Fer;false;Arroz
-La porteña;restaurante;false;28.916763;-13.705072;1;na;0;Fer;false;Carne
-Buda;restaurante;false;28.916763;-13.705072;1;na;0;Fer;false;para tomar una copa en el puerto
-Salmarina;restaurante;false;28.90684;-13.732607;1;na;0;Fer;false;
-Casa Tino;restaurante;false;28.90684;-13.732607;1;na;0;Fer;false;
-Brisa Marina;restaurante;false;28.861;-13.857;1;na;0;Fer;false;
-Kamezí;restaurante;false;28.861;-13.857;1;na;0;Fer;false;Restaurante para un plan especial
-Costa Azul;restaurante;false;28.980621;-13.83066;1;na;0;Fer;false;comer Cherne o pescado a la brasa
-El Cangrejo Rojo;restaurante;false;28.920706;-13.671291;1;na;0;Fer;false;
-Ikarus;restaurante;false;29.06;-13.563;1;na;0;Fer;false;Tu restaurante favorito
-Chiringuito Tropical;restaurante;true;28.861386;-13.860099;1;na;4;Fer;false;Dia 4(Martes): Visita a los hervideros, charco de san gines y comer en el chiringuito tropical(Comer Arroz con playa con vistas a fuerteventura (reservar)). Tambien se puede tomar unas cervezas cenar en la raspa tomar copa en restaurante puertito o la miñoca. Paseo Maritimo donde se encuentra el castillo
-La Geria;plan;true;29.019;-13.69;1;na;2;Fer y Rocio;false;Dia 2 (Domingo): Mercadillo en villa Teguise y Zona de bodegas (Bodega de Uga 1 y Bodega de Santiago 11)
-Piscinas Naturales;plan;true;29.145157;-13.446248;1;na;7;Fer;false;Dia7(Viernes):Piscinas naturales y Tomar unas tropicales con una tapita en el murito del bar piscinas viendo las piscinas naturales. Descansar por la tarde en el hotel
-Charco de San gines;plan;true;28.961993;-13.549121;1;na;4;Fer;true;Dia 4(Martes): Visita a los hervideros, charco de san gines y comer en el chiringuito tropical(Comer Arroz con playa con vistas a fuerteventura (reservar)). Tambien se puede tomar unas cervezas cenar en la raspa tomar copa en restaurante puertito o la miñoca. Paseo Maritimo donde se encuentra el castillo
-El Golfo;plan;false;28.960823;-13.829832;1;na;0;Fer;true;Atardecer
-Los Hervideros;plan;true;28.954141;-13.832062;1;na;4;Fer;true;Dia 4(Martes): Visita a los hervideros, charco de san gines y comer en el chiringuito tropical(Comer Arroz con playa con vistas a fuerteventura (reservar)). Tambien se puede tomar unas cervezas cenar en la raspa tomar copa en restaurante puertito o la miñoca. Paseo Maritimo donde se encuentra el castillo
-Jameos del Agua;plan;true;29.158;-13.432;1;na;5;Fer y Rocio;true;Dia 5(Miercoles): Visita de la cueva de lso verdes y Jameos del agua. La playa de caleton Blanco es preciosa
-La Cueva de los verdes;plan;true;29.16076;-13.439671;1;na;5;Fer y Rocio;true;Dia 5(Miercoles): Visita de la cueva de lso verdes y Jameos del agua. La playa de caleton Blanco es preciosa
-El mirador del rio;plan;false;29.21375;-13.481047;1;na;0;Fer y Rocio;true;
-El jardin del cactus;plan;false;29.21375;-13.481047;1;na;0;Fer;true;
-Las Grietas;plan;false;28.974215;-13.634042;1;na;0;Fer;true;
-Cueva de Lago Mar;restaurante;false;29.04494;-13.555177;1;na;0;Fer;false;Tomar un coctel en un acueva
-Teguise(villa);plan;true;29.057611;-13.559244;1;na;2;Fer;false;Dia 2 (Domingo): Mercadillo en villa Teguise y Zona de bodegas (Bodega de Uga 1 y Bodega de Santiago 11)
-El Bosquecillo;plan;false;29.126094;-13.522021;1;na;0;Fer;false;Vistas a Famara espectaculares
-Timanfaya;plan;true;29.015478;-13.782784;2;na;6;Fer;false;Dia 6(Jueves): Excursion timanfaya y luego a playa Papagayo, la playa más famosa(llevar de comer porque solo hay un chiringuito y es caro)
-Playa Jabalillo;playa;false;28.992679;-13.489975;1;na;0;Fer;false;
-Papagayo;playa;true;28.842;-13.787;2;na;6;Fer y Rocio;false;Dia 6(Jueves): Excursion timanfaya y luego a playa Papagayo, la playa más famosa(llevar de comer porque solo hay un chiringuito y es caro)
-Playa mujeres;playa;false;28.852827;-13.792615;1;na;0;Fer;false;Nudista  no tan masificada
-Flamingo;playa;false;28.857464;-13.841246;1;na;0;Fer;false;
-Calitas;playa;false;28.919668;-13.649805;1;na;0;Fer;false;Las calitas de enfrente de Lanys
-Playa Fariones;playa;false;28.91974;-13.664763;1;na;0;Fer;false;una de mis favoritas
-Playa Chica;playa;false;28.91974;-13.664763;1;na;0;Fer;false;
-Famara;playa;true;29.115383;-13.557022;1;na;3;Fer;false;Dia 3(Lunes): Playa de famara y comer en Risco - Mejor atardecer - Restaurante Risco
-Playa Risco;playa;false;29.208699;-13.496886;1;na;0;Fer;false;
-Caleton Blanco;playa;true;29.216036;-13.438289;1;na;5;Fer;false;Dia 5(Miercoles): Visita de la cueva de lso verdes y Jameos del agua. La playa de caleton Blanco es preciosa
-Jabillo;playa;false;28.993224;-13.489621;1;na;1;Amiga Fer;false;Piscinas Naturales Gigantes - Comer o Cenar en El rincon
-Restaurante Risco;restaurante;true;29.114487;-13.548163;1;na;3;Fer;false;Dia 3(Lunes): Playa de famara y comer en Risco - Mejor atardecer - Restaurante Risco
+nombre;tipo;favorito;Ciudad;ciudad2;lat;lng;precio;web;dia;web;foto;telef;recomendacion;atardecer;descripcion
+Alarz;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;https://restaurantealarz.es;-;;Fer;false;
+Amura;restaurante;false;Puerto Calero;Puerto Calero;28.916763;-13.705072;1;na;0;https://restauranteamura.com;-;;Fer;false;Arroz
+Barbacana;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;https://www.tripadvisor.es/Restaurant_Review-g187478-d14941772-Reviews-Barbacana_Grill-Arrecife_Lanzarote_Canary_Islands.html;-;;Fer;false;Carne uruguayo
+Barceló Teguise Beach;hotel;true;Teguise;Teguise;28.9985;-13.4896;1;na;1;-;img/barcelo.jpg;;Fer;false;
+Barullo;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;https://www.guiabocaboca.com/restaurantes-lanzarote/barullo;-;;Fer;false;
+Bodega de Santiago;restaurante;true;Yaiza;Yaiza;28.955916;-13.760306;1;na;7;-;-;;Fer y Rocio;false;Tu restaurante favorito
+Bodega de Uga;restaurante;false;Uga;Yaiza;28.947204;-13.745930;1;na;7;-;-;;Rocio;false;
+Charco de San gines;plan;true;Arrecife;Arrecife;28.961993;-13.549121;1;na;2;-;img/charco_san_gines.jpg;;Fer;true;Tomar una copita en El puertito o Miñoca
+Mirador El Bosquecillo;plan;true;Haría / Famara;Haría / Famara;29.126094;-13.522021;1;na;2;-;-;;Fer;false;Mirador Vistas a Famara espectaculares
+Brisa Marina;restaurante;false;Playa Blanca (Yaiza);Yaiza;28.861;-13.857;1;na;0;https://restaurantebrisamarina.es;-;;Fer;false;
+Buda;restaurante;false;Puerto Calero;Puerto Calero;28.916763;-13.705072;1;na;0;-;-;;Fer;false;para tomar una copa en el puerto
+Carbón;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;https://www.grupoamura.com/es/restaurant/carbon-carbon;-;;Fer;false;Carne
+Casa Tere;restaurante;false;Playa Honda;Playa Honda;28.951716;-13.587575;1;na;0;https://clublanzarote.es/negocio/restaurante-casa-tere/;-;;Fer;false;
+El Golfo;plan;true;El Golfo (Yaiza);Yaiza;28.960823;-13.829832;1;na;6;-;-;;Fer;true;Atardecer
+Casa Tino;restaurante;false;Playa Quemada;Playa Quemada;28.90684;-13.732607;1;na;0;-;-;;Fer;false;
+Chacho burguer;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;-;-;;Fer;false;hamburguesería
+Chiringuito Tropical;restaurante;false;Playa Blanca (Yaiza);Yaiza;28.861386;-13.860099;1;na;0;https://www.tripadvisor.es/Restaurant_Review-g652121-d9849018-Reviews-Chiringuito_Tropical-Playa_Blanca_Lanzarote_Canary_Islands.html;-;;Fer;false;Dia 4(Martes): Visita a los hervideros, charco de san gines y comer en el chiringuito tropical(Comer Arroz con playa con vistas a fuerteventura (reservar)). Tambien se puede tomar unas cervezas cenar en la raspa tomar copa en restaurante puertito o la miñoca. Paseo Maritimo donde se encuentra el castillo
+El jardin del cactus;plan;false;Guatiza;Guatiza;29.080439;-13.476347;1;na;0;-;-;;Fer;false;
+Costa Azul;restaurante;true;El Golfo (Yaiza);Yaiza;28.980621;-13.83066;1;na;6;-;-;;Fer;false;comer Cherne o pescado a la brasa cierra martes
+El mirador del rio;plan;true;Playa Risco;Playa Risco;29.21375;-13.481047;1;na;4;-;-;;Fer y Rocio;true;
+Jameos del Agua;plan;true;Haría;Haria;29.158;-13.432;1;na;3;-;img/jameos_del_agua.jpg;;Fer y Rocio;true;Reservar 17€
+La Cueva de los verdes;plan;true;Haría;Haria;29.16076;-13.439671;1;na;3;-;img/la_cueva_de_los_verdes.jpg;;Fer y Rocio;true;Reservar
+Cueva de LagOmar;restaurante;false;Nazaret;Nazaret;29.04494;-13.555177;1;na;0;-;-;;Fer;false;Tomar un coctel en un acueva
+El Cangrejo Rojo;restaurante;false;Puerto del Carmen (Tías);Tias;28.920706;-13.671291;1;na;0;-;-;;Fer;false;
+La Geria;plan;true;La Geria (Yaiza);Yaiza;28.968864;-13.714417;1;na;7;-;img/la_geria.jpg;;Fer y Rocio;false;
+La Graciosa;plan;true;La Graciosa;La Graciosa;29.274868;-13.515803;1;na;4;-;-;;Fer;;Reservar ferry y mirar transporte alli
+El Puertito;restaurante;true;Arrecife;Arrecife;28.959185;-13.547662;1;na;2;-;-;;Fer;false;Genial para tomarse una copa en la terraza de arriba antes de salir de fiesta por la marina
+Lago verde;plan;true;El Golfo (Yaiza);Yaiza;28.960823;-13.829832;1;na;6;-;-;;Fer;true;
+Las Grietas;plan;true;Montaña Blanca (Tías);Tias;28.974215;-13.634042;1;na;7;-;-;;Fer;true;
+Emmax;restaurante;false;Playa Honda;Playa Honda;28.951716;-13.587575;1;na;0;-;-;;Fer;false;Italiano
+Ikarus;restaurante;true;Teguise;Teguise;29.06;-13.563;1;na;0;https://clublanzarote.es/negocio/ikarus;-;;Fer;false;Tu restaurante favorito
+Los Hervideros;plan;true;Yaiza;Yaiza;28.954141;-13.832062;1;na;7;-;img/los-hervideros.jpg;;Fer;true;
+Piscinas Naturales;plan;true;Punta Mujeres (Haría);Haria;29.145157;-13.446248;1;na;3;-;img/piscinas_naturales.jpg;;Fer;false;
+Teguise(villa);plan;true;Teguise(villa);Teguise(villa);29.057611;-13.559244;1;na;2;-;img/teguise_villa.jpg;;Fer;false;Mercadillo domingos
+Kamezí;restaurante;true;Playa Blanca (Yaiza);Yaiza;28.861;-13.857;1;na;0;https://www.kamezi.restaurant;img/kamezi.jpg;;Fer;false;Restaurante para un plan especial
+Katus;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;-;-;;Fer;false;
+La porteña;restaurante;false;Puerto Calero;Puerto Calero;28.916763;-13.705072;1;na;0;-;-;;Fer;false;Carne
+Timanfaya;plan;false;Yaiza;Yaiza;29.015478;-13.782784;1;na;0;-;img/timanfaya.jpg;;Fer;false;Dia 6(Jueves): Excursion timanfaya y luego a playa Papagayo, la playa más famosa(llevar de comer porque solo hay un chiringuito y es caro)
+Caleton Blanco;playa;true;Caleton Blanco;Caleton Blanco;29.216036;-13.438289;1;na;3;-;img/caleton_blanco.jpg;;Fer;false;
+Calitas;playa;true;Puerto del Carmen (Tías);Tias;28.919668;-13.649805;1;na;5;-;-;;Fer;false;Las calitas de enfrente de Lanys
+La Raspa;restaurante;false;Arrecife;Arrecife;28.962261;-13.546741;1;na;0;https://tascalaraspa.com;-;;Fer;false;
+Famara;playa;true;Caleta de Famara (Teguise);Teguise;29.115383;-13.557022;1;na;2;-;img/famara.jpg;;Fer;false;Mejor atardecer - Restaurante Risco
+La ripia;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;-;-;;Fer;false;
+Flamingo;playa;true;Playa Blanca (Yaiza);Yaiza;28.857464;-13.841246;1;na;6;-;-;;Fer;false;
+Lilium;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;https://www.restaurantelilium.com/;-;;Fer;false;
+Jabillo;playa;true;Costa Teguise (Teguise);Teguise;28.993224;-13.489621;1;na;1;-;img/el_jabillo.jpg;;Amiga Fer;false;Piscinas Naturales Gigantes - Comer o Cenar en El rincon
+las conchas;playa;true;La Graciosa;La Graciosa;29.274868;-13.515803;1;na;4;-;-;;Fer;;
+Papagayo;playa;true;Playa Blanca (Yaiza);Yaiza;28.842;-13.787;1;na;6;-;img/papagayo.jpg;;Fer y Rocio;false;
+Playa Chica;playa;true;Puerto del Carmen (Tías);Tias;28.91974;-13.664763;1;na;5;-;-;;Fer;false;
+Playa Fariones;playa;true;Puerto del Carmen (Tías);Tias;28.91974;-13.664763;1;na;5;-;-;;Fer;false;una de mis favoritas
+Niño Salvaje;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;-;-;;Fer;false;
+Patagonia;restaurante;false;Playa Honda;Playa Honda;28.951716;-13.587575;1;na;0;-;-;;Fer;false;Carne
+Restaurante Risco;restaurante;true;Playa Risco;Playa Risco;29.114487;-13.548163;1;na;2;https://www.tripadvisor.es/Restaurant_Review-g652122-d1731146-Reviews-Restaurante_Sala_El_Risco-Teguise_Lanzarote_Canary_Islands.html;-;928528550;Fer;false;No cierra
+Salmarina;restaurante;false;Playa Honda;Playa Honda;28.90684;-13.732607;1;na;0;-;-;;Fer;false;
+Playa mujeres;playa;true;Papagayo - Playa Blanca (Yaiza);Yaiza;28.852827;-13.792615;1;na;6;-;-;;Fer;false;Nudista  no tan masificada
+Playa Risco;playa;true;Bajo el Mirador del Río (Haría);Haria;29.208699;-13.496886;1;na;2;-;-;;Fer;false;
+Santa Leña;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;https://santa-lena.makro.rest;-;;Fer;false;Carne
+Strava;restaurante;false;Arrecife;Arrecife;28.959185;-13.547662;1;na;0;https://www.barstrava.es;-;;Fer;false;
+El Rincon;restaurante;true;Costa Teguise (Teguise);Teguise;28.996576;-13.491496;1;na;1;-;-;928493158;Amiga Fer;false;Preguntar a Fer cual es exactamente
+Miñoca;restaurante;true;Arrecife;Arrecife;28.962231;-13.546988;1;na;2;-;-;;Fer;false;
+Bar Piscinas Naturales;restaurante;true;Punta Mujeres (Haría);Haria;29.145157;-13.446248;1;na;3;-;;;Fer;false;Reservar
+Casa Enriqueta;restaurante;true;La Graciosa;La Graciosa;29.231029;-13.503330;;;4;;;;;;martes y miercoles cerrado
+Casa Torano;restaurante;true;El Golfo (Yaiza);Yaiza;28.982588;-13.831530;1;na;6;-;-;;Fer;false;cierra los viernes
+;;;;;;;;;;;;;;;

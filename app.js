@@ -35,7 +35,7 @@ const descripcionDias = {
         <ul>
             <li>Llegada a Lanzarote</li>
             <li>Comida hotel</li>
-            <li>Playa Jaramillo</li>
+            <li>Playa Jarabillo</li>
             <li>Ducha</li>
             <li>Cenar en el rincón en Teguise</li>
         </ul>
@@ -505,6 +505,7 @@ function actualizarFiltros() {
 
 
         if (
+            info.tipo !== "hotel" &&
             diasSeleccionados &&
             String(info.dia) !== diasSeleccionados
         ) {
