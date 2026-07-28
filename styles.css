@@ -131,10 +131,32 @@ body{
 }
 
 #infoDia{
+    background:white;
+    color:#111827;
+
     padding:15px;
-    margin-bottom:10px;
-    background:#f8fafc;
+    margin-top:15px;
+
     border-radius:10px;
     border-left:5px solid #2563eb;
-    display:none;
+
+    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+
+    font-size:14px;
+    line-height:1.5;
+}
+
+#infoDia h3{
+    margin-top:0;
+    color:#2563eb;
+    font-size:22px;
+}
+
+#infoDia ul{
+    padding-left:20px;
+    margin:10px 0;
+}
+
+#infoDia li{
+    margin-bottom:8px;
 }

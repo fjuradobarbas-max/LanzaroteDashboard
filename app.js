@@ -33,78 +33,77 @@ const descripcionDias = {
     "1": `
         <h3>🗓️ Día 1</h3>
         <p>
-            - Llegada a Lanzarote.
-            - Comida hotel
-            - Playa Jaramillo
-            - Ducha y cenar en el rincón en Teguise 
+            <li>Llegada a Lanzarote</li>
+            <li>Comida hotel</li>
+            <li>Playa Jaramillo</li>
+            <li>Ducha y cenar en el rincón en Teguise</li>
         </p>
     `,
 
     "2": `
         <h3>🗓️ Día 2</h3>
         <p>
-            - Desayuno hotel 
-            - Mercadillo Teguise
-            - Playa famara y comer en el Risco (***reservar) y más playa por la tarde 
-            - Mirador el bosquecillo
-            - Cenar hotel 
-            - Vuelta por arrecife. Ver charco de San Ginés y paseo marítimo. Copita en restaurante puertito o la miñoca.
-
+            <li>Desayuno hotel</li>
+            <li>Mercadillo Teguise</li>
+            <li>Playa famara y comer en el Risco (***reservar) y más playa por la tarde</li>
+            <li>Mirador el bosquecillo</li>
+            <li>Cenar hotel</li>
+            <li>Vuelta por arrecife. Ver charco de San Ginés y paseo marítimo. Copita en restaurante puertito o la miñoca.</li>
         </p>
     `,
 
     "3": `
         <h3>🗓️ Día 3</h3>
         <p>
-            - Desayuno hotel 
-            - Cueva de los verdes (***reservar)
-            - Jameos del agua (***reservar)
-            - Piscinas naturales de punta mujeres y comer en Bar Piscinas (***reservar)
-            - Playa Caleton blanco
-            - Cenar en hotel
+            <li>Desayuno hotel</li>
+            <li>Cueva de los verdes (***reservar)</li>
+            <li>Jameos del agua (***reservar)</li>
+            <li>Piscinas naturales de punta mujeres y comer en Bar Piscinas (***reservar)</li>
+            <li>Playa Caleton blanco</li>
+            <li>Cenar en hotel</li>
         </p>
     `,
 
     "4": `
         <h3>🗓️ Día 4</h3>
         <p>
-            - Desayuno hotel
-            - La graciosa (**reservar). Comer en Casa Enriqueta (**reservar)
-            - Mirador del Río
-            - Cenar en hotel
+            <li>Desayuno hotel</li>
+            <li>La graciosa (**reservar). Comer en Casa Enriqueta (**reservar)</li>
+            <li>Mirador del Río</li>
+            <li>Cenar en hotel</li>
         </p>
     `,
 
     "5": `
         <h3>🗓️ Día 5</h3>
         <p>
-            - Desayuno hotel 
-            - Playa fariones y calitas
+            <li>Desayuno hotel</li>
+            <li>Playa fariones y calitas</li>
         </p>
     `,
 
     "6": `
         <h3>🗓️ Día 6</h3>
         <p>
-            - Desayuno hotel 
-            - Playa Papagayo. Llevar comida.
-            - Atardecer en el golfo junto al lago verde y cena en Costa Azul o Casa Torano (***reservar)
+            <li>Desayuno hotel</li>
+            <li>Playa Papagayo. Llevar comida.</li>
+            <li>Atardecer en el golfo junto al lago verde y cena en Costa Azul o Casa Torano (***reservar)</li>
         </p>
     `,
 
     "7": `
         <h3>🗓️ Día 7</h3>
         <p>
-           - Desayuno hotel
+           <li>Desayuno hotel</li>
         </p>
     `,
 
     "8": `
         <h3>🗓️ Día 8</h3>
         <p>
-            - Desayuno hotel
-            - Piscina hotel
-            - Aeropuerto y comer allí
+            <li>Desayuno hotel</li>
+            <li>Piscina hotel</li>
+            <li>Aeropuerto y comer allí</li>
         </p>
     `
 };
@@ -409,7 +408,7 @@ function resetFiltros() {
     ).value = "";
 
     // Limpiar pop up diario
-    
+
         document.getElementById(
             "infoDia"
         ).style.display = "none";
