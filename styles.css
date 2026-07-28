@@ -221,3 +221,9 @@ body{
     gap:8px;
     margin-bottom:10px;
 }
+
+.custom-marker{
+    width:44px !important;
+    height:44px !important;
+    border-radius:50%;
+}

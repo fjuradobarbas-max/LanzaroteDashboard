@@ -153,7 +153,10 @@ fetch("lanzarote-data.json")
 
             const icon = L.divIcon({
 
-                className: "",
+                className: "custom-marker",
+                iconSize: [44, 44],
+                iconAnchor: [22, 22],
+                
 
                 html: `
                 <i
@@ -179,6 +182,12 @@ fetch("lanzarote-data.json")
     max-width:320px;
 ">
 `;
+
+console.log(
+    item.nombre,
+    item.foto
+);
+
 if(item.foto){
 
     popup += `
