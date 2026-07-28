@@ -30,7 +30,8 @@ body{
     margin-bottom:12px;
 }
 
-#sidebar button{
+#btnCentro,
+#btnReset{
 
     width:100%;
     margin-top:10px;
@@ -101,31 +102,39 @@ body{
 }
 #diasContainer{
 
-    display:grid;
-
-    grid-template-columns:
-        repeat(4,1fr);
+    display:flex;
+    flex-wrap:wrap;
 
     gap:8px;
 
-    margin-bottom:20px;
+    margin-top:10px;
+    margin-bottom:15px;
 }
 
 .btn-dia{
 
-    height:45px;
+    width:65px;
+    height:40px;
 
     border:none;
     border-radius:8px;
 
     background:#e5e7eb;
+    color:#111827;
 
     cursor:pointer;
 
+    font-size:13px;
     font-weight:bold;
+
+    margin:0 !important;
+    padding:0 !important;
+
+    flex:none;
 }
 
 .btn-dia.active{
+
     background:#2563eb;
     color:white;
 }
