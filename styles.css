@@ -6,7 +6,7 @@ body{
 }
 
 #sidebar{
-    width:320px;
+    width:380px;
     background:#1f2937;
     color:white;
     padding:20px;
@@ -154,7 +154,7 @@ body{
 }
 
 #infoDia{
-    display:none;
+    display:block;
 
     background:white !important;
     color:#111827 !important;
@@ -217,8 +217,8 @@ body{
 }
 
 .bloque-sidebar label{
-
-    display:block;
-
-    margin-bottom:8px;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin-bottom:10px;
 }
