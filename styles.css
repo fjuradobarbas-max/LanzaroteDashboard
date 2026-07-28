@@ -131,30 +131,31 @@ body{
 }
 
 #infoDia{
-    background:white;
-    color:#111827;
+    background:white !important;
+    color:#111827 !important;
 
     padding:15px;
-    margin-top:15px;
+    margin-bottom:15px;
 
-    border-radius:10px;
-    border-left:5px solid #2563eb;
+    border-radius:12px;
+    border-left:6px solid #2563eb;
 
-    box-shadow:0 2px 8px rgba(0,0,0,0.15);
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
 
-    font-size:14px;
-    line-height:1.5;
+#infoDia *{
+    color:#111827 !important;
 }
 
 #infoDia h3{
+    color:#2563eb !important;
     margin-top:0;
-    color:#2563eb;
     font-size:22px;
 }
 
 #infoDia ul{
+    margin:0;
     padding-left:20px;
-    margin:10px 0;
 }
 
 #infoDia li{

@@ -32,81 +32,82 @@ const descripcionDias = {
 
     "1": `
         <h3>🗓️ Día 1</h3>
-        <p>
+        <ul>
             <li>Llegada a Lanzarote</li>
             <li>Comida hotel</li>
             <li>Playa Jaramillo</li>
             <li>Ducha y cenar en el rincón en Teguise</li>
-        </p>
+        </ul>
     `,
 
     "2": `
         <h3>🗓️ Día 2</h3>
-        <p>
+        <ul>
             <li>Desayuno hotel</li>
             <li>Mercadillo Teguise</li>
             <li>Playa famara y comer en el Risco (***reservar) y más playa por la tarde</li>
             <li>Mirador el bosquecillo</li>
             <li>Cenar hotel</li>
             <li>Vuelta por arrecife. Ver charco de San Ginés y paseo marítimo. Copita en restaurante puertito o la miñoca.</li>
-        </p>
+        </ul>
     `,
 
     "3": `
         <h3>🗓️ Día 3</h3>
-        <p>
+        <ul>
             <li>Desayuno hotel</li>
             <li>Cueva de los verdes (***reservar)</li>
             <li>Jameos del agua (***reservar)</li>
             <li>Piscinas naturales de punta mujeres y comer en Bar Piscinas (***reservar)</li>
             <li>Playa Caleton blanco</li>
             <li>Cenar en hotel</li>
-        </p>
+        </ul>
     `,
 
     "4": `
         <h3>🗓️ Día 4</h3>
-        <p>
+        <ul>
             <li>Desayuno hotel</li>
             <li>La graciosa (**reservar). Comer en Casa Enriqueta (**reservar)</li>
             <li>Mirador del Río</li>
             <li>Cenar en hotel</li>
-        </p>
+        </ul>
     `,
 
     "5": `
         <h3>🗓️ Día 5</h3>
-        <p>
+        <ul>
             <li>Desayuno hotel</li>
             <li>Playa fariones y calitas</li>
-        </p>
+        </ul>
     `,
 
     "6": `
         <h3>🗓️ Día 6</h3>
-        <p>
+        <ul>
             <li>Desayuno hotel</li>
             <li>Playa Papagayo. Llevar comida.</li>
             <li>Atardecer en el golfo junto al lago verde y cena en Costa Azul o Casa Torano (***reservar)</li>
-        </p>
+        </ul>
     `,
 
     "7": `
         <h3>🗓️ Día 7</h3>
-        <p>
+        <ul>
            <li>Desayuno hotel</li>
-        </p>
+        </ul>
     `,
 
     "8": `
         <h3>🗓️ Día 8</h3>
-        <p>
+        <ul>
             <li>Desayuno hotel</li>
             <li>Piscina hotel</li>
             <li>Aeropuerto y comer allí</li>
-        </p>
+        </ul>
     `
 };
+
 
 // =====================================
 // CARGAR JSON
