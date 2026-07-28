@@ -179,6 +179,15 @@ fetch("lanzarote-data.json")
     max-width:320px;
 ">
 `;
+if(item.foto){
+
+    popup += `
+        <img src="${item.foto}" 
+        alt="${item.nombre}" 
+        style="width:100%; 
+        height:auto;">
+    `;
+}
 popup += `
     <div
         class="popup-title"

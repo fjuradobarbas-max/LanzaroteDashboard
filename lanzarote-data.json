@@ -354,7 +354,7 @@
       "foto": "img/jameos_del_agua.jpg",
       "telef": "",
       "recomendacion": "Fer y Rocio",
-      "atardecer": true,
+      "atardecer": false,
       "descripcion": "Reservar 17€"
     },
     {
@@ -371,7 +371,7 @@
       "foto": "img/la_cueva_de_los_verdes.jpg",
       "telef": "",
       "recomendacion": "Fer y Rocio",
-      "atardecer": true,
+      "atardecer": false,
       "descripcion": "Reservar"
     },
     {
