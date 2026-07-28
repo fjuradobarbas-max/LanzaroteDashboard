@@ -100,18 +100,29 @@ body{
     cursor:pointer;
 }
 #diasContainer{
-    display:flex;
-    flex-wrap:wrap;
-    gap:6px;
-    margin:10px 0;
+
+    display:grid;
+
+    grid-template-columns:
+        repeat(4,1fr);
+
+    gap:8px;
+
+    margin-bottom:20px;
 }
 
 .btn-dia{
+
+    height:45px;
+
     border:none;
     border-radius:8px;
-    padding:8px 12px;
+
     background:#e5e7eb;
+
     cursor:pointer;
+
+    font-weight:bold;
 }
 
 .btn-dia.active{
@@ -131,6 +142,8 @@ body{
 }
 
 #infoDia{
+    display:none;
+
     background:white !important;
     color:#111827 !important;
 
@@ -141,6 +154,10 @@ body{
     border-left:6px solid #2563eb;
 
     box-shadow:0 4px 10px rgba(0,0,0,.15);
+
+    max-height:180px;
+
+    overflow-y:auto;
 }
 
 #infoDia *{
