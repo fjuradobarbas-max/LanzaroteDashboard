@@ -34,10 +34,14 @@ const descripcionDias = {
         <h3>🗓️ Día 1</h3>
         <ul>
             <li>Llegada a Lanzarote</li>
-            <li>Comida hotel</li>
-            <li>Playa Jarabillo</li>
+            <li>Recoger coche en aerouerto</li>
+            <li>Comida telecub Tehiche (no reservar)</li>
+            <li>Check-in y deshacer maleta</li>
+            <li>Playa Jablillo</li>
+            <li>Piscina Hotel</li>
             <li>Ducha</li>
-            <li>Cenar en el rincón en Teguise</li>
+            <li>Cenar hotel</li>
+            <li>Salir a dar una vuelta</li>
         </ul>
     `,
 
@@ -45,9 +49,8 @@ const descripcionDias = {
         <h3>🗓️ Día 2</h3>
         <ul>
             <li>Desayuno hotel</li>
-            <li>Mercadillo Teguise</li>
-            <li>Playa famara y comer en el Risco (***reservar)</li>
-            <li>Tarde: más playa por la tarde</li>
+            <li>Mercadillo Teguise y coger comida y agua</li>
+            <li>Playa Risco todo el dia caminata de 1h de ida y otra de vuelta</li>
             <li>Mirador el bosquecillo</li>
             <li>Cenar hotel</li>
             <li>Vuelta por arrecife</li>
@@ -64,32 +67,15 @@ const descripcionDias = {
             <li>Jameos del agua (***reservar)</li>
             <li>Piscinas naturales de punta mujeres</li>
             <li>Comer: en Bar Piscinas (***reservar)</li>
-            <li>Playa Caleton blanco</li>
+            <li>Ducha Hotel</li>
+            <li>Atardecer en Famara</li>
             <li>Cenar en hotel</li>
+            <li>Salir a dar una vuelta</li>
         </ul>
     `,
 
-    "4": `
+        "4": `
         <h3>🗓️ Día 4</h3>
-        <ul>
-            <li>Desayuno hotel</li>
-            <li>La graciosa (**reservar)</li>
-            <li>Comer en Casa Enriqueta (**reservar)</li>
-            <li>Mirador del Río</li>
-            <li>Cenar en hotel</li>
-        </ul>
-    `,
-
-    "5": `
-        <h3>🗓️ Día 5</h3>
-        <ul>
-            <li>Desayuno hotel</li>
-            <li>Playa fariones y calitas</li>
-        </ul>
-    `,
-
-    "6": `
-        <h3>🗓️ Día 6</h3>
         <ul>
             <li>Desayuno hotel</li>
             <li>Playa Papagayo. Llevar comida.</li>
@@ -97,9 +83,42 @@ const descripcionDias = {
              <li>Playa Mujeres</li>
              <li>Playa del Pozo</li>
              <li>Playa de la Cera</li>
-            <li>Atardecer en el golfo junto al lago verde</li>
-            <li>Playa del paso</li>
-            <li>Cena en Costa Azul o Casa Torano (***reservar)</li>
+             <li>Las Grietas</li>
+             <li>Cena Hotel</li>
+             <li>Salir a dar una vuelta</li>
+        </ul>
+    `,
+
+
+    "5": `
+        <h3>🗓️ Día 5</h3>
+        <ul>
+            <li>Desayuno hotel</li>
+            <li>Playa fariones y calitas</li>
+            <li>Playa Chica</li>
+            <li>Playa Grande</li>
+            <li>Comer Cangrejo Rojo 14:25h</li>
+            <li>Ducha hotel</li>
+            <li>Carretera Timanfaya LZ-67</li>
+            <li>Los Hervideros</li>
+            <li>Lago Verde</li>
+            <li>El Golfo</li>
+            <li>Cena Costa Azul viendo atardecer (***reservar)</li>
+        </ul>
+    `,
+
+
+    "6": `
+        <h3>🗓️ Día 6</h3>
+        <ul>
+            <li>Desayuno hotel</li>
+            <li>La graciosa (**reservar)</li>
+            <li>Comer en Casa Enriqueta (**reservar)</li>
+            <li>Mirador del Río</li>
+            <li>Ducha hotel</li>
+            <li>La Geria coon vino</li>
+            <li>Cenar en hotel</li>
+            <li>Salir a dar una vuelta</li>
         </ul>
     `,
 
@@ -107,6 +126,10 @@ const descripcionDias = {
         <h3>🗓️ Día 7</h3>
         <ul>
            <li>Desayuno hotel</li>
+           <li>Caleton Blanco</li>
+           <li>Comer Bodega Uga o de Santiago</li>
+           <li>Elegir Playa para la tarde</li>
+           <li>Cenar Hotel</li>
         </ul>
     `,
 
