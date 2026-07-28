@@ -102,40 +102,43 @@ body{
 }
 #diasContainer{
 
-    display:flex;
-    flex-wrap:wrap;
+    display:grid;
 
-    gap:8px;
+    grid-template-columns:
+        repeat(4,1fr);
 
-    margin-top:10px;
+    gap:6px;
+
     margin-bottom:15px;
 }
 
 .btn-dia{
 
-    width:65px;
+    width:100%;
+
     height:40px;
-
-    border:none;
-    border-radius:8px;
-
-    background:#e5e7eb;
-    color:#111827;
-
-    cursor:pointer;
-
-    font-size:13px;
-    font-weight:bold;
 
     margin:0 !important;
     padding:0 !important;
 
-    flex:none;
+    border:none;
+    border-radius:8px;
+
+    background:#374151;
+
+    color:white;
+
+    cursor:pointer;
+
+    font-size:13px;
+
+    font-weight:bold;
 }
 
 .btn-dia.active{
 
     background:#2563eb;
+
     color:white;
 }
 
