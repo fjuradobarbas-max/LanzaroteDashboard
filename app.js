@@ -24,6 +24,10 @@ map.addLayer(cluster);
 
 const markers = [];
 
+// Día seleccionado para los botones Día 1-7
+let diaSeleccionado = "";
+
+
 // =====================================
 // CARGAR JSON
 // =====================================
@@ -82,36 +86,27 @@ fetch("lanzarote-data.json")
 
 
             let popup = `
-                <div style="
-                    width:320px;
-                    max-width:320px;
-                ">
-                `;
+<div style="
+    width:320px;
+    max-width:320px;
+">
+`;
 
-            if(item.foto){
+            if (item.foto) {
 
                 popup += `
-                    <img
-                        src="${item.foto}"
-                        alt="${item.nombre}"
-                        style="
-                            width:100%;
-                            height:180px;
-                            object-fit:cover;
-                            border-radius:8px
-                `;
+        ${item.foto}
+    `;
             }
 
-
-
-popup += `
+            popup += `
     <div
         class="popup-title"
         style="
             font-size:22px;
             font-weight:bold;
+            text-align:center;
             color:#111827;
-            margin-top:10px;
             margin-bottom:10px;
         "
     >
@@ -119,67 +114,65 @@ popup += `
     </div>
 `;
 
-
-
             if (item.precio) {
 
                 popup += `
-                <p>
-                    <strong>💰 Precio:</strong>
-                    ${typeof item.precio === "number"
+        <p>
+            <strong>💰 Precio:</strong>
+            ${typeof item.precio === "number"
                         ? "€".repeat(item.precio)
                         : item.precio
                     }
-                </p>
+        </p>
 
-                <hr>
-            `;
+        <hr>
+    `;
             }
 
             if (item.descripcion) {
 
                 popup += `
-                <p>
-                    <strong>📝 Descripción:</strong><br>
-                    ${item.descripcion}
-                </p>
-            `;
+        <p>
+            <strong>📝 Descripción:</strong><br>
+            ${item.descripcion}
+        </p>
+    `;
             }
 
             if (item.favorito) {
 
                 popup += `
-                <p class="favorito">
-                    ⭐ Recomendado por Fernando
-                </p>
-            `;
+        <p class="favorito">
+            ⭐ Recomendado por Fernando
+        </p>
+    `;
             }
 
-            if (item.web) {
+            if (item.web && item.web !== "na") {
 
                 popup += `
-                <p>
-                    ${item.web}
-                        🌐 Página Web
-                    </a>
-                </p>
-            `;
+        <p>
+            ${item.web}
+                🌐 Página Web
+            </a>
+        </p>
+    `;
             }
 
             if (item.maps) {
 
                 popup += `
-                <p>
-                    ${item.maps}
-                        📍 Google Maps
-                    </a>
-                </p>
-            `;
+        <p>
+            ${item.maps}
+                📍 Google Maps
+            </a>
+        </p>
+    `;
             }
 
             popup += `
-        </div>
-        `;
+</div>
+`;
 
             const marker = L.marker(
                 [item.lat, item.lng],
@@ -230,12 +223,7 @@ document
         actualizarFiltros
     );
 
-document
-    .getElementById("filtroDias")
-    .addEventListener(
-        "change",
-        actualizarFiltros
-    );
+
 
 document
     .getElementById("btnCentro")
@@ -258,20 +246,20 @@ document
         resetFiltros
     );
 
-    document
+document
     .querySelectorAll(".btn-dia")
     .forEach(btn => {
 
         btn.addEventListener("click", () => {
 
             document
-            .querySelectorAll(".btn-dia")
-            .forEach(b => b.classList.remove("active"));
+                .querySelectorAll(".btn-dia")
+                .forEach(b => b.classList.remove("active"));
 
             btn.classList.add("active");
 
             diaSeleccionado =
-            btn.dataset.dia;
+                btn.dataset.dia;
 
             actualizarFiltros();
 
@@ -301,29 +289,29 @@ function resetFiltros() {
 
     document.getElementById(
         "soloFavoritos"
-    ).checked = true;
+    ).checked = false;
 
     document.getElementById(
         "soloAtardecer"
-    ).checked = true;
+    ).checked = false;
 
     // Quitar días
 
     diaSeleccionado = "";
 
     document
-    .querySelectorAll(".btn-dia")
-    .forEach(btn => {
+        .querySelectorAll(".btn-dia")
+        .forEach(btn => {
 
-        btn.classList.remove("active");
+            btn.classList.remove("active");
 
-    });
+        });
 
     document
-    .querySelector(
-        '.btn-dia[data-dia=""]'
-    )
-    .classList.add("active");
+        .querySelector(
+            '.btn-dia[data-dia=""]'
+        )
+        .classList.add("active");
 
     // Limpiar buscador
 
@@ -331,11 +319,7 @@ function resetFiltros() {
         "buscador"
     ).value = "";
 
-    // Restablecer días
 
-    document.getElementById(
-        "filtroDias"
-    ).value = "";
 
     // Centrar mapa
 
@@ -395,7 +379,7 @@ function actualizarFiltros() {
 
     let contador = 0;
 
-    let diaSeleccionado = "";
+
 
     markers.forEach(marker => {
 

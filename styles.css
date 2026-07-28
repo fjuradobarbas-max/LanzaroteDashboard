@@ -99,28 +99,33 @@ body{
 
     cursor:pointer;
 }
-
 #diasContainer{
     display:flex;
     flex-wrap:wrap;
     gap:6px;
-    margin-top:10px;
-    margin-bottom:15px;
+    margin:10px 0;
 }
 
 .btn-dia{
-    padding:8px 12px;
     border:none;
     border-radius:8px;
-    cursor:pointer;
-
+    padding:8px 12px;
     background:#e5e7eb;
-    color:#111827;
-
-    font-size:14px;
+    cursor:pointer;
 }
 
 .btn-dia.active{
     background:#2563eb;
     color:white;
+}
+
+.popup-title{
+    font-size:22px;
+    font-weight:bold;
+    text-align:center;
+}
+
+.favorito{
+    color:#f59e0b;
+    font-weight:bold;
 }
