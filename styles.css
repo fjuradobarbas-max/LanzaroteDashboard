@@ -190,3 +190,35 @@ body{
 #infoDia li{
     margin-bottom:8px;
 }
+
+#map{
+    flex:1;
+    height:100vh;
+    min-width:0;
+}
+
+.bloque-sidebar{
+
+    background:#243247;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    margin-bottom:12px;
+}
+
+.bloque-sidebar h4{
+
+    margin-top:0;
+    margin-bottom:10px;
+
+    color:white;
+}
+
+.bloque-sidebar label{
+
+    display:block;
+
+    margin-bottom:8px;
+}
