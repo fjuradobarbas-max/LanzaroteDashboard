@@ -36,7 +36,8 @@ const descripcionDias = {
             <li>Llegada a Lanzarote</li>
             <li>Comida hotel</li>
             <li>Playa Jaramillo</li>
-            <li>Ducha y cenar en el rincón en Teguise</li>
+            <li>Ducha</li>
+            <li>Cenar en el rincón en Teguise</li>
         </ul>
     `,
 
@@ -45,10 +46,13 @@ const descripcionDias = {
         <ul>
             <li>Desayuno hotel</li>
             <li>Mercadillo Teguise</li>
-            <li>Playa famara y comer en el Risco (***reservar) y más playa por la tarde</li>
+            <li>Playa famara y comer en el Risco (***reservar)</li>
+            <li>Tarde: más playa por la tarde</li>
             <li>Mirador el bosquecillo</li>
             <li>Cenar hotel</li>
-            <li>Vuelta por arrecife. Ver charco de San Ginés y paseo marítimo. Copita en restaurante puertito o la miñoca.</li>
+            <li>Vuelta por arrecife</li>
+            <li>Ver charco de San Ginés y paseo marítimo</li>
+            <li>Copita en restaurante puertito o la miñoca</li>
         </ul>
     `,
 
@@ -58,7 +62,8 @@ const descripcionDias = {
             <li>Desayuno hotel</li>
             <li>Cueva de los verdes (***reservar)</li>
             <li>Jameos del agua (***reservar)</li>
-            <li>Piscinas naturales de punta mujeres y comer en Bar Piscinas (***reservar)</li>
+            <li>Piscinas naturales de punta mujeres</li>
+            <li>Comer: en Bar Piscinas (***reservar)</li>
             <li>Playa Caleton blanco</li>
             <li>Cenar en hotel</li>
         </ul>
@@ -68,7 +73,8 @@ const descripcionDias = {
         <h3>🗓️ Día 4</h3>
         <ul>
             <li>Desayuno hotel</li>
-            <li>La graciosa (**reservar). Comer en Casa Enriqueta (**reservar)</li>
+            <li>La graciosa (**reservar)</li>
+            <li>Comer en Casa Enriqueta (**reservar)</li>
             <li>Mirador del Río</li>
             <li>Cenar en hotel</li>
         </ul>
@@ -87,7 +93,8 @@ const descripcionDias = {
         <ul>
             <li>Desayuno hotel</li>
             <li>Playa Papagayo. Llevar comida.</li>
-            <li>Atardecer en el golfo junto al lago verde y cena en Costa Azul o Casa Torano (***reservar)</li>
+            <li>Atardecer en el golfo junto al lago verde</li>
+            <li>cena en Costa Azul o Casa Torano (***reservar)</li>
         </ul>
     `,
 
