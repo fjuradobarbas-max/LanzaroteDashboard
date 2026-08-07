@@ -63,10 +63,10 @@ const descripcionDias = {
         <h3>🗓️ Día 3</h3>
         <ul>
             <li>Desayuno hotel</li>
-            <li>Cueva de los verdes (***reservar)</li>
-            <li>Jameos del agua (***reservar)</li>
+            <li>Cueva de los verdes 11:30h </li>
+            <li>Jameos del agua RESERVADO</li>
             <li>Piscinas naturales de punta mujeres</li>
-            <li>Comer: en Bar Piscinas (***reservar)</li>
+            <li>Comer: en Bar Piscinas </li>
             <li>Ducha Hotel</li>
             <li>Atardecer en Famara</li>
             <li>Cenar en hotel</li>
@@ -103,7 +103,7 @@ const descripcionDias = {
             <li>Los Hervideros</li>
             <li>Lago Verde</li>
             <li>El Golfo</li>
-            <li>Cena Costa Azul viendo atardecer (***reservar)</li>
+            <li>Cena Costa Azul viendo atardecer 19:30 - Sonia</li>
         </ul>
     `,
 
@@ -127,7 +127,7 @@ const descripcionDias = {
         <ul>
            <li>Desayuno hotel</li>
            <li>Caleton Blanco</li>
-           <li>Comer Bodega Uga o de Santiago</li>
+           <li>Comer Bodega Uga o de Santiago (**reservar)</li>
            <li>Elegir Playa para la tarde</li>
            <li>Cenar Hotel</li>
         </ul>
